@@ -1,0 +1,11 @@
+Novamente, você deverá modelar um sistema de transporte de carga consiste em uma via circular com 8 secções e 3 veículos. Entre cada uma das secções existe um semáforo que controla a entrada dos veículos na secção. Exceto entre as secções 2 e 3.
+
+Por questões de segurança, apenas um veículo pode transitar em uma secção de cada vez.
+
+Inicialmente os veículos se encontram parados em um estacionamento. A partir desse estacionamento, os veículos acessam a secção 1 e entram na via de transporte de cargas.
+
+O tempo de deslocamento entre cada uma das secções é de 10 unidades de tempo. Em cada mudança de secção o veículo deve parar para carregar/descarregar. Essa operação dura pelo menos 25 unidades de tempo.
+
+O veículo n (n = 1, 2 ou 3) deve parar para reabastecer a cada n voltas na via. Pare reabastecer ele deve entrar no estacionamento pelo acesso que existe na secção 1.
+
+Construa um modelo de autômato temporizado para esse sistema utilizando o Uppaal e faça a especificação das propriedades que esse sistema deve satisfazer. Por exemplo: em nenhum momento deve haver mais de um veículo em uma secção; cada veículo não deve dar mais voltas na via do que sua autonomia permite; o sistema deve ser livre de deadlocks; dentre outras que vocês julguem relevantes.
